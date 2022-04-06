@@ -1,9 +1,5 @@
 # Radon_transformation
 
-An algorithm to:
+The radon transform is like the sum along an angle, just like as if you had done an x-ray along that angle. For a 2D image, it gives you a 1-D profile. It's not a bad analogy - the radon transform is the x-ray of the image along an angle. In fact, radon transforms are used in CT and MRI reconstruction.
 
-Recognize and manipulate faces from Python or from the command line with the world's simplest face recognition library.
-
-Built using dlib's state-of-the-art face recognition built with deep learning. The model has an accuracy of 99.38% on the Labeled Faces in the Wild benchmark.
-
-This also provides a simple face_recognition command-line tool that lets you do face recognition on a folder of images from the command line!
+The max value of the profile will be the "ray" that passed through the densest (i.e. brightest) part of the image.
